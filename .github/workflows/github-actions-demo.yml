@@ -33,6 +33,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          branch: gh-pages
+          branch: public-pages
           folder: dist/ # Asegúrate de ajustar esta ruta a tu estructura de carpetas
 
