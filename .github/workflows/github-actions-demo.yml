@@ -16,6 +16,9 @@ jobs:
       - name: update branch
         run: git pull
 
+      - name: Instalar Angular CLI
+        run: npm install -g @angular/cli
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
