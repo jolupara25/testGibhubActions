@@ -13,8 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: update branch
-        run: git pull
+      # - name: update branch
+      # run: git pull
 
       - name: Instalar Angular CLI
         run: npm install -g @angular/cli
@@ -34,5 +34,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           branch: public-pages
-          folder: dist/ # Asegúrate de ajustar esta ruta a tu estructura de carpetas
-
+          folder: dist/
